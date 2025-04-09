@@ -30,20 +30,23 @@ border-radius: 50%;
 background-color: red;
 height: 33%;
 width: 100%;
+filter: brightness(0.5);
 }
 .GreenLight {
     border-radius: 50%;
     background-color: green;
     height: 33%;
     width: 100%;
+    filter: brightness(0.5);
 }
 .YellowLight {
     border-radius: 50%;
     background-color: yellow;
     height: 33%;
     width: 100%;
+    filter: brightness(0.5);
 }
 
 .LightOn {
-    
+    filter: brightness(1.5);
 }

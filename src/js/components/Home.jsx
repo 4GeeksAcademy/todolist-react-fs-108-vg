@@ -1,22 +1,21 @@
 import React, { useState } from "react";
 
-//include images into your bundle
- 
-//create your first component
 const Home = () => {
 	const [color,setColor] = useState("");
 const bright = (color) => {
-console.log(color);
+setColor(color);
 };
 	return (
 		<div className="CajaSemaforo">
 		<div className="Semaforo">
-			<div className="RedLight" onClick={() => bright("red")}>
-				
+			<div className={`RedLight ${color === "red" ? "LightOn" : ""}`}
+					onClick={() => bright("red")}>				
 			</div>
-			<div className="GreenLight" onClick={() => bright("green")}>
+			<div className={`GreenLight ${color === "green" ? "LightOn" : ""}`}
+					onClick={() => bright("green")}>
 			</div>
-			<div className="YellowLight" onClick={() => bright("yellow")}>
+			<div className={`YellowLight ${color === "yellow" ? "LightOn" : ""}`}
+					onClick={() => bright("yellow")}>
 			</div>
 		</div>
 		</div>
