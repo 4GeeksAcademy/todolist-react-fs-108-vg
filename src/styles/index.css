@@ -25,35 +25,27 @@ body {
     flex-direction: column;
 }
 
-.RedLight {
+.RedLight, .GreenLight, .YellowLight, .PurpleLight {
 border-radius: 50%;
-background-color: red;
 height: 250px;
 width: 250px;
-filter: brightness(0.5);
+opacity: 0.3;
+}
+
+.RedLight{
+    background-color: red;
 }
 .GreenLight {
-    border-radius: 50%;
     background-color: green;
-    height: 250px;
-    width: 250px;
-    filter: brightness(0.5);
 }
 .YellowLight {
-    border-radius: 50%;
     background-color: yellow;
-    height: 250px;
-    width: 250px;
-    filter: brightness(0.5);
 }
 .PurpleLight {
-    border-radius: 50%;
     background-color: purple;
-    height: 250px;
-    width: 250px;
-    filter: brightness(0.5);
 }
 
 .LightOn {
-    filter: brightness(1.5);
+    filter: brightness(1.8);
+    opacity: 1;
 }
