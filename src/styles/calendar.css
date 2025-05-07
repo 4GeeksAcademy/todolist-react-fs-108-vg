@@ -1,0 +1,85 @@
+.All {
+    height: 100vh;
+    background-color: #b1daf5 !important;
+    color:  midnightblue;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-70 {
+    height: 70%
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+
+.w-70 {
+    width: 70%;
+}
+
+.btn {
+    color:  midnightblue;
+}
+
+.location-top-right {
+    background-color: rgba(128, 128, 128, 0.2);
+
+}
+
+.location-top-left {
+    background: url(https://www.shutterstock.com/image-vector/fictitious-generic-street-map-urban-600nw-2312834423.jpg);
+    object-fit:scale-down;
+}
+
+.car-right {
+    background-color: white;
+}
+
+.car-left {
+    background-color: rgb(255, 255, 101);
+}
+
+.car-middle {
+    background-color: midnightblue;
+    color: white;
+}
+
+.weather-left {
+    background-color: white;
+}
+
+.quality {
+    background-color: white;
+}
+
+.quality-top-2 {
+    padding: 10px
+}
+
+.dots {
+    background-color: rgb(128, 128, 128, 0.2);
+}
