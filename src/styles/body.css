@@ -1,0 +1,78 @@
+.body-container {
+  background-color: white;
+  overflow: hidden;
+  color:  midnightblue;
+}
+
+.body-photo {
+  background: url('src/img/human-body.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+  width: auto;
+}
+
+.overlay-custom {
+background-color: black;
+}
+
+.emoticons {
+  top: 50%;
+  left: 10%;
+  gap: 5px;
+}
+
+.emoticon {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(211, 211, 211, 0.4);
+  border-radius: 50%;
+}
+
+.super-happy {
+  font-size: xx-large;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy {
+  font-size: x-large;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.neutral {
+  font-size: larger;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sad {
+  font-size: medium;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.angry {
+  font-size: smaller;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

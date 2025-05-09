@@ -1,0 +1,20 @@
+.bg-grey-custom {
+    background-color: #eeeffa !important;
+}
+
+.boton-test {
+    height: 60px;
+    width: 60px;
+}
+
+.botonera{
+    width: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
