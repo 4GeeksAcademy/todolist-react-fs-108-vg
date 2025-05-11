@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/vector-cartoon-style-illustration-kitchen-260nw-2257872349.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pomodoro {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-image: url("../img/pomodoro.png");
+    background-size: cover;
+}
+
+
+.time-display {
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+button {
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+button:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+
+button:hover:not(:disabled) {
+    background-color: #ffd700;
+}
