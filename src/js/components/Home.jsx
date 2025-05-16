@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Footer from "./Footer";
+import Card from "./Card";
 
 const Home = () => {
 	return (
@@ -11,8 +12,14 @@ const Home = () => {
 				<Navbar />
 			</header>
 
-			<div>
-				<Jumbotron />	
+			<div className="Container">
+				<Jumbotron />
+			<div className="row">
+				<Card />
+				<Card />	
+				<Card />
+				<Card />	
+			</div>
 			</div>
 
 			<footer>
